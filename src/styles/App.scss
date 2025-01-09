@@ -1,0 +1,47 @@
+.list-group {
+  margin: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #f8f9fa;
+  }
+}
+
+.form-check-input {
+  margin-right: 10px;
+  width: 1.375em;
+  height: 1.375em;
+}
+
+.form-checked-content {
+  flex-grow: 1;
+}
+
+.bg-body-tertiary {
+  background-color: #f1f3f5;
+}
+
+.text-body-secondary {
+  color: #6c757d;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.gap-3 {
+  gap: 1rem;
+}

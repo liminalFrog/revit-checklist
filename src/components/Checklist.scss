@@ -1,0 +1,22 @@
+.list-group-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-check-input {
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+.form-checked-content {
+  padding-top: 0.25rem;
+}
+
+.bg-body-tertiary {
+  background-color: #f8f9fa;
+}
+
+.form-check-input-placeholder {
+  background-color: #f8f9fa;
+  pointer-events: none;
+}
